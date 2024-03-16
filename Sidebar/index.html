@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- YouTube or Website - CodingLab -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar Menu for Admin Dashboard</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  </head>
+  <body>
+    <nav class="sidebar">
+      <a href="#" class="logo">Sidebar</a>
+
+      <div class="menu-content">
+        <ul class="menu-items">
+          <div class="menu-title">Sidebar</div>
+
+          <li class="item">
+            <a href="#">Home</a>
+          </li>
+
+          <li class="item">
+            <div class="submenu-item">
+              <span>Clothing</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+            <ul class="menu-items submenu">
+              <div class="menu-title">
+                <i class="fa-solid fa-chevron-left"></i>
+                Clothes
+              </div>
+              <li class="item">
+                <a href="#">Jackets</a>
+              </li>
+              <li class="item">
+                <a href="#">Shirts</a>
+              </li>
+              <li class="item">
+                <a href="#">Trousers</a>
+              </li>
+            </ul>
+          </li>
+          <li class="item">
+            <div class="submenu-item">
+              <span>Accessories</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+            <ul class="menu-items submenu">
+              <div class="menu-title">
+                <i class="fa-solid fa-chevron-left"></i>
+                Accessories
+              </div>
+              <li class="item">
+                <a href="#">Perfumes</a>
+              </li>
+              <li class="item">
+                <a href="#">Gloves</a>
+              </li>
+              <li class="item">
+                <a href="#">Additional stuff</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="item">
+            <a href="#">About us</a>
+          </li>
+
+          <li class="item">
+            <a href="#">Partnerships</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav class="navbar">
+      <i class="fa-solid fa-bars" id="sidebar-close"></i>
+    </nav>
+
+    <main class="main">
+      <h1>Main page</h1>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
